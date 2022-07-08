@@ -1,0 +1,103 @@
+/* . for class
+# for id */
+/* id is unique and usage time is once only
+class is something common and can be used as many times */
+/* The other similarity between ids and classes as we mentioned before is that they are more specific than
+the tag selectors and any of these styles will override any tag selector styles that are applied
+to the same element. */
+/* And the first thing to remember is that a particular id can only be used once on this page.
+The other difference is that any HTML element can have more than one class but it can only have
+one id. */
+/* Favicons are used in browser tabs, browser history, toolbar apps, bookmarks dropdown, search bar, and search bar recommendations. In all of these, especially in the bookmarks and histoty tabs, that consist of lists of URLs all looking the same, the favicon makes it faster to find that web-site you're looking for. */
+/* .photo{
+    position: relative;
+    left:300px;
+    top:200px;
+} */
+/* h1,p{
+    text-align: center;
+} */
+body {
+    background-color: #d8fafa;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* text-align: center; */
+}
+
+hr {
+
+    border-style:dotted none none;
+    width: 40px;
+    height: 0px;
+    border-width: 5px;
+    border-color: grey;
+}
+h1,h3{
+    color: #66BFBF;
+    text-align: center;
+}
+.nav{
+    background-color: #66BFBF;
+    height: 165px;
+    border-top: 0px;
+    padding-top: 0%;
+    margin-inline-start: 0%;
+    border-width: medium;
+    margin-block-start: 0%;
+    /* background-image: url(cloud.png); */
+    background: -moz-element();
+    /* border:solid 10px; */
+
+}
+.contact{
+    text-decoration: none;
+    color:black ;
+}
+.contact:hover{
+    color: red;
+    background-color: blue;
+    height: 50px;
+    font-size: 20px;
+    display:block;
+}
+h4{
+    font-size:larger;
+}
+/* .lorem{
+    background-image: url(mountain.png);
+/* } */
+/* .p1{
+    margin: 10px;
+    background-color: #30E3CA;
+}
+.p2{
+    background-color: #11999E;
+    margin: 10px;
+}
+.para{
+    /* display:block; */
+    /* background-color: greenyellow;
+} */
+.vansh{
+    text-align:center;
+    background-color:#409898;
+
+}
+#vansh{
+    color: green;
+}
+.mountain{
+    position: relative;
+    left:400px;
+    top:100px;
+}
+.middle-container{
+    text-align: center;
+}
+.skills{
+    margin-left: auto;
+    margin-right: auto;
+}
+.ev{
+    text-decoration: solid;
+}
